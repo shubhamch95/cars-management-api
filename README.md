@@ -14,7 +14,7 @@
 
 Create a .env file in the root directory and add your MongoDB connection URL and the desired port:
 
-PORT=2000 
+PORT=2000
 DB_CONNECTION_URL=mongodb://127.0.0.1:27017/yourdatabase
 
 ## Start the server:
