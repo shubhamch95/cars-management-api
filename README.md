@@ -23,19 +23,19 @@ The server will run on the specified port, and you should see "Server is Running
 
 ## Project Structure:
 
-* index.js: The main entry point of the application where the Express app is configured and the server is started.
-* models/model.js: Defines the Mongoose schema for the cars collection.
-* routers/routes.js: Contains the Express routes for handling CRUD operations on the cars collection.
+* **index.js:** The main entry point of the application where the Express app is configured and the server is started.
+* **models/model.js:** Defines the Mongoose schema for the cars collection.
+* **routers/routes.js:** Contains the Express routes for handling CRUD operations on the cars collection.
 
  ## API Endpoints:
 
- Get All Cars URL:<br>/api/v1/ <br>Method: GET <br>Description: Get a list of all cars.
+ **Get All Cars URL:** <br>/api/v1/ <br>Method: GET <br>Description: Get a list of all cars.
 
- Get Single Car URL: <br>/api/v1/:carId <br>Method: GET <br>Description: Get details of a single car by its ID.
+ **Get Single Car URL:** <br>/api/v1/:carId <br>Method: GET <br>Description: Get details of a single car by its ID.
 
- Create a New Car URL:<br>/api/v1/ <br>Method: POST <br>Description: Create a new car. Requires a JSON body with car details.
+ **Create a New Car URL:** <br>/api/v1/ <br>Method: POST <br>Description: Create a new car. Requires a JSON body with car details.
 
-Example JSON body: 
+**Example JSON body:** 
 
 {
  "brand": "Toyota",<br>"type": "Sedan", <br>"year": 2022,<br>"price": 25000,<br>"color": "Blue" 
