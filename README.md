@@ -5,8 +5,7 @@
  ## Getting Started 
  **Clone the repository:**
  
- git clone https://github.com/shubhamch95/cars-management-api
- cd cars-management-api
+ git clone https://github.com/shubhamch95/cars-management-api <br> cd cars-management-api
 
  ## Install dependencies:
  
