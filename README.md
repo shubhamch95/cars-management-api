@@ -13,7 +13,7 @@
 
 Create a .env file in the root directory and add your MongoDB connection URL and the desired port:
 
-**PORT=**2000<br>**DB_CONNECTION_URL=**mongodb://127.0.0.1:27017/yourdatabase
+**PORT**=2000<br>**DB_CONNECTION_URL**=mongodb://127.0.0.1:27017/yourdatabase
 
 ## Start the server:
 
@@ -45,7 +45,7 @@ The server will run on the specified port, and you should see "Server is Running
 
 The project uses Mongoose to connect to a MongoDB database.
 The connection URL is specified in the .env file.
-DB_CONNECTION_URL=mongodb://127.0.0.1:27017/yourdatabase
+**DB_CONNECTION_URL**=mongodb://127.0.0.1:27017/yourdatabase
 
 ## Contributing:
 
