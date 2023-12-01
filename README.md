@@ -13,8 +13,7 @@
 
 Create a .env file in the root directory and add your MongoDB connection URL and the desired port:
 
-PORT=2000
-DB_CONNECTION_URL=mongodb://127.0.0.1:27017/yourdatabase
+PORT=2000<br>DB_CONNECTION_URL=mongodb://127.0.0.1:27017/yourdatabase
 
 ## Start the server:
 
@@ -30,10 +29,7 @@ The server will run on the specified port, and you should see "Server is Running
 
  ## API Endpoints:
 
- Get All Cars URL:
- /api/v1/ 
- Method: GET 
- Description: Get a list of all cars.
+ Get All Cars URL:<br>/api/v1/ <br>Method: GET <br>Description: Get a list of all cars.
 
  Get Single Car URL: 
  /api/v1/:carId 
