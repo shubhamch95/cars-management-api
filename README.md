@@ -5,19 +5,19 @@
  ## Getting Started 
  **Clone the repository:**
  
- git clone https://github.com/shubhamch95/cars-management-api <br> cd /cars-management-api
+ **git clone** https://github.com/shubhamch95/cars-management-api <br> **cd** /cars-management-api
 
  ## Install dependencies:
  
- npm install
+ **npm install**
 
 Create a .env file in the root directory and add your MongoDB connection URL and the desired port:
 
-PORT=2000<br>DB_CONNECTION_URL=mongodb://127.0.0.1:27017/yourdatabase
+**PORT=**2000<br>**DB_CONNECTION_URL=**mongodb://127.0.0.1:27017/yourdatabase
 
 ## Start the server:
 
- npm start
+ **npm start**
 
 The server will run on the specified port, and you should see "Server is Running Fine.!!" in the console.
 
