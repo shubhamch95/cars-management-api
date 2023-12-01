@@ -5,7 +5,7 @@
  ## Getting Started 
  **Clone the repository:**
  
- git clone https://github.com/shubhamch95/cars-management-api <br> cd cars-management-api
+ git clone https://github.com/shubhamch95/cars-management-api <br> cd /cars-management-api
 
  ## Install dependencies:
  
@@ -31,24 +31,14 @@ The server will run on the specified port, and you should see "Server is Running
 
  Get All Cars URL:<br>/api/v1/ <br>Method: GET <br>Description: Get a list of all cars.
 
- Get Single Car URL: 
- /api/v1/:carId 
- Method: GET 
- Description: Get details of a single car by its ID.
+ Get Single Car URL: <br>/api/v1/:carId <br>Method: GET <br>Description: Get details of a single car by its ID.
 
- Create a New Car URL:
- /api/v1/ 
- Method: POST 
- Description: Create a new car. Requires a JSON body with car details.
+ Create a New Car URL:<br>/api/v1/ <br>Method: POST <br>Description: Create a new car. Requires a JSON body with car details.
 
 Example JSON body: 
 
 {
- "brand": "Toyota",
- "type": "Sedan", 
-"year": 2022,
- "price": 25000,
- "color": "Blue" 
+ "brand": "Toyota",<br>"type": "Sedan", <br>"year": 2022,<br>"price": 25000,<br>"color": "Blue" 
 }
 
 ## Database Connection:
